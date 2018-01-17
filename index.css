@@ -1,3 +1,11 @@
 body {
     background-color: blueviolet
 }
+
+.btn {
+    border-radius: 0px;
+}
+
+#infoButton {
+    margin-bottom: 5%;
+}
