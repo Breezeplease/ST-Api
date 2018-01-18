@@ -15,6 +15,12 @@ $(() => {
         loaded = true
       })
     }
+
+    $('#clearButton').click(() => {
+      $('#tableBody').empty()
+      loaded = false
+    })
+
   })
 
 function createTableRow(person) {
