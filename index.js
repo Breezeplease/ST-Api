@@ -16,28 +16,29 @@ $(() => {
       })
     }
 
-    $('#clearButton').click(() => {
-      $('#tableBody').empty()
-      loaded = false
-    })
-
+    
   })
-
-function createTableRow(person) {
-  let row = $(`<tr></tr>`)
-  let name = $(`<td>${person.name}</td>`)
-  let height = $(`<td>${person.height}</td>`)
-  let birth = $(`<td>${person.birth_year}</td>`)
-
-  name.css('color','red')
-
-  row.append(name)
-  row.append(height)
-  row.append(birth)
-
-  return row
-}
-
+  
+  function createTableRow(person) {
+    let row = $(`<tr></tr>`)
+    let name = $(`<td>${person.name}</td>`)
+    let height = $(`<td>${person.height}</td>`)
+    let birth = $(`<td>${person.birth_year}</td>`)
+    
+    name.css('color','red')
+    
+    row.append(name)
+    row.append(height)
+    row.append(birth)
+    
+    return row
+  }
+  
+  $('#clearButton').click(() => {
+    $('#tableBody').empty()
+    loaded = false
+  })
+  
 })
 // $(() => {}) short for $(document.ready(function) {})
 
