@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet
+    background-color: rgb(81, 29, 129)
 }
 
 .btn {
@@ -8,4 +8,13 @@ body {
 
 #buttonRow {
     margin-bottom: 5%;
+}
+.jumbotron {
+    background-image: url(https://www.universalorlando.com/web/k2/en/us/files/Images/wizarding-world-harry-potter-orlando-hermoine-ron-art-a-00.jpg?imwidth=1117);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+    height: 460px;
 }
